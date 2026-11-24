@@ -2,6 +2,7 @@
 """One Line of Earned Pride — writes a single line of earned pride to /output/entry.txt.
 
 Pure standard library. Deterministic: every run writes the same bytes.
+The entry is exactly 147 characters with no trailing newline.
 """
 
 import os
